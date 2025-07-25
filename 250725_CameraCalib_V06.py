@@ -1,4 +1,6 @@
+import sys
 import streamlit as st
+st.sidebar.write("Python version:", sys.version)
 import zipfile
 import tempfile
 import os
